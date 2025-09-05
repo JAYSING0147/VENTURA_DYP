@@ -45,7 +45,16 @@ export function Footer() {
           <p className="text-muted-foreground">
             DY Patil College of Engineering, Akurdi, Pune, Maharashtra 411044
           </p>
-          <p className="text-muted-foreground">Email: contact@edcdypcoe.in</p>
+          
+          <p className="text-muted-foreground">
+  Email:{" "}
+  <a
+    href="mailto:contact@edcdypcoe.in"
+    className="text-primary hover:underline"
+  >
+    contact@edcdypcoe.in
+  </a>
+</p>
           <p className="text-muted-foreground">Phone: +91 8329358967, +91 9307924743, +91 9307154076</p>
         </div>
         <div className="grid gap-4">
